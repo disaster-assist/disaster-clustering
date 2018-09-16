@@ -1,0 +1,15 @@
+{
+  "name": "disaster-clustering",
+  "version": "1.0.0",
+  "description": "This repository contains a clustering algorithm that runs via a serverless IBM cloud function to detect disaster events from chatbot data. This was built for the Call for Code hackathon. Powered by RCOS and IBM.",
+  "main": "src/index.js",
+  "repository": "git@github.com:disaster-assist/disaster-clustering.git",
+  "author": "jakebillings <jake@jakebillings.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@cloudant/cloudant": "^2.3.0",
+    "jDBSCAN": "https://github.com/disaster-assist/jDBSCAN.git",
+    "underscore": "^1.9.1"
+  }
+}
