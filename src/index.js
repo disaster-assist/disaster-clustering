@@ -39,7 +39,7 @@ function main(params) {
         dbscanner();
 
         return {
-            clusters: JSON.stringify(dbscanner.getClusters())
+            clusters: dbscanner.getClusters()
         }
     });
 }
